@@ -1,0 +1,11 @@
+# Temporary files
+a.txt
+b.txt
+c.txt
+
+# Claude metadata
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store
