@@ -130,7 +130,7 @@ function showHelp() {
 
 function populateProjects() {
     const projects = [
-        { title: 'PROBE', tech: 'Flask, Python', link: 'https://github.com/arghamuhury/Probe', desc: 'Cybersecurity utility web app with a polished security dashboard and modern user experience.' },
+        { title: 'Probe', tech: 'Flask, Python', link: 'https://github.com/arghamuhury/Probe', desc: 'Cybersecurity utility web app with a polished security dashboard and modern user experience.' },
         { title: 'Alpha Music', tech: 'Kotlin, Jetpack Compose', link: 'https://github.com/arghamuhury/AlphaMusic', desc: 'Android music app focused on simplicity, elegant mobile UX, and immersive listening flows.' },
         { title: 'Smart Attendance', tech: 'Flask, Python', link: 'https://github.com/arghamuhury/SmartAttendance', desc: 'QR-based attendance system built for clean workflow automation and role-based access.' }
     ];
@@ -141,7 +141,7 @@ function populateProjects() {
         const projectItem = document.createElement('article');
         projectItem.classList.add('project-card', 'panel');
         projectItem.innerHTML = `
-            <span class="project-tag">${project.title === 'PROBE' ? 'Cybersecurity' : project.title === 'Alpha Music' ? 'Mobile' : 'Web App'}</span>
+            <span class="project-tag">${project.title === 'Probe' ? 'Cybersecurity' : project.title === 'Alpha Music' ? 'Mobile' : 'Web App'}</span>
             <h3>${project.title}</h3>
             <p>${project.desc}</p>
             <ul>
